@@ -49,13 +49,6 @@ docker run --gpus all -v $(pwd)/data:/app/data -v $(pwd)/checkpoints:/app/checkp
 
 **注意**：Dockerfile默认使用CUDA 12.6运行环境，如需其他版本请修改基础镜像。
 
-### 3. 环境验证
-项目包含环境验证脚本`test_env.py`，用于检查PyTorch和CUDA环境是否正确配置：
-```bash
-python test_env.py
-```
-正常输出应显示PyTorch版本、CUDA可用性、GPU设备信息以及PyTorch Lightning版本，并提示"环境验证通过！可以开始CIFAR-10项目。"
-
 ## 快速开始
 
 ### 1. 训练模型
