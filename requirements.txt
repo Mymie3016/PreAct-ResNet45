@@ -1,0 +1,7 @@
+torch>=2.9.1+cu126
+pytorch-lightning>=2.6.0
+torchvision>=0.24.1+cu126
+torchmetrics>=1.8.2
+tensorboard>=2.20.0
+numpy>=2.3.5
+pillow>=12.0.0

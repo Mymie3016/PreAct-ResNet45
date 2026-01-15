@@ -1,0 +1,9 @@
+__pycache__
+.vscode
+.git
+data/
+checkpoint/
+logs/
+src/__pycache__
+.gitignore
+.env
